@@ -1,9 +1,9 @@
 
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import styles from "./navbar.css";
+import styles from "./navBar.css";
 
-const Navbar = () => {
+const NavBar = () => {
   let activeStyle = {
     textDecoration: "underline",
   };

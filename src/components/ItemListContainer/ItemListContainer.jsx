@@ -3,8 +3,7 @@ import './ItemListContainer.css'
 import Card from "../Card";
 
 const ItemListContainer = ({productos}) => {
-return 
-(
+return (
   <>
       {productos.map((producto) => (
         <Card key={producto.id} producto={producto} />
@@ -13,4 +12,4 @@ return
 );
 };
 
-export default ItemListContainer
+export default ItemListContainer;

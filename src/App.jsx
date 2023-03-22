@@ -1,9 +1,9 @@
-import './App.css'
-import axios from "axios"
+import './App.css';
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import ItemListContainer from "./components/ItemListContainer";
-import ItemDetailContainer from "./components/ItemDetailContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import Home from "./components/Home";
 import Navbar from "./components/navBar";
 
@@ -27,7 +27,7 @@ function App() {
       <h1>Tienda de productos</h1>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="home" />} />
+        <Route path="/" element={<Navigate to="home"/>} />
         <Route path="/home" element={<Home />} />
         <Route
           path="/productos"

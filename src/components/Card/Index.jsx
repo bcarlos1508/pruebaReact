@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./card.css";
+import styles from "./Card.css";
 
 const Card = ({ producto }) => {
   return (
@@ -9,7 +9,7 @@ const Card = ({ producto }) => {
         <img src={producto.image} alt="" width={200} />
         <p>{producto.description}</p>
         <p>$ {producto.price}</p>
-      </div>
+      </div>  
     </Link>
   );
 };
