@@ -1,6 +1,6 @@
 import React from 'react'
 import './ItemListContainer.css'
-import Card from "../Card";
+import Card from "../Card/Index";
 
 const ItemListContainer = ({productos}) => {
 return (

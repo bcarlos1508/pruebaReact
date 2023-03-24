@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import styles from "./navBar.css";
+import styles from "./navBar.css?inline";
 
 const NavBar = () => {
   let activeStyle = {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./Card.css";
+import styles from "./Card.css?inline";
 
 const Card = ({ producto }) => {
   return (

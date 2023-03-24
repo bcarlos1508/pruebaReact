@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
-import Home from "./components/Home";
-import Navbar from "./components/navBar";
+import Home from "./components/Home/Index";
+import Navbar from "./components/navBar/Index";
 
 
 function App() {
